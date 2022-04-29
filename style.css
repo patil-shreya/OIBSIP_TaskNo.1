@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    margin: 26px 4px;
+
+
+}
+ #logo img{
+    height: 116px;
+    margin: -5px 5px
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar::before{
+    content: "";
+    background-color: #55D8C1;
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+
+}
+
+#navbar ul li{
+    display: flex;
+    list-style: none;
+    font-size: 1.8rem;
+}
+
+#navbar ul li a{
+    color: #AB46D2;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color:#B22727;
+    background-color: #FFFBE7;
+}
+
+/* home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#home::before{
+    content: "";
+    position: absolute;
+    background-image: url('main.webp') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+
+
+}
+
+/* utility classes */
+#home h1{
+    color:#FF6FB5;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+#home p{
+
+    color:#FD5D5D;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+/* services section */
+
+.services-section{
+    background-image: url('backk.jpg');
+    height: 500px;
+    opacity: 0.9;
+    position: relative;
+    top: 250px;
+}
+
+ #services-1{
+    margin: 115px;
+    display: flex;
+    position: relative;
+    top: -112px;
+    left: -100px;
+    /* border: 2px solid rgb(226, 86, 43); */
+    border-radius: 20px;
+    height: 300px;
+    width: 450px;
+    background-color: #333C83;
+
+
+}
+
+#services-2{
+    margin: 115px;
+    display: flex;
+    position: relative;
+    top: -532px;
+    left: 420px;
+    /* border: 2px solid rgb(226, 86, 43); */
+    border-radius: 20px;
+    height: 300px;
+    width: 450px;
+    background-color: #333C83;
+
+
+}
+
+
+#services-3{
+    margin: 115px;
+    display: flex;
+    position: relative;
+    top: -950px;
+    left: 932px;
+    /* border: 2px solid rgb(226, 86, 43); */
+    border-radius: 20px ;
+    height: 300px;
+    width: 450px;
+    background-color: #333C83;
+
+
+}
+
+
+.box img{
+    height: 160px;
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+
+
+
+}
+
+
+
+.h-primary{
+
+    font-size: 3.8rem;
+    padding: 15px;
+    position: relative;
+    top: -80px;
+}
+
+.h-secondary{
+    font-size: 3.8rem;
+    padding: 12px;
+
+}
+
+/* .para{
+    font-size: 100px;
+} */
+
+.h-third{
+    font-size: 1.8rem;
+    padding: 12PX;
+
+}
+
+.btn{
+    padding: 6px 25px;
+    border: 2px solid white;
+    background-color: rgb(155, 125, 125);
+    color: azure;
+    margin: 17px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.btn:hover{
+
+    background-color: rgb(128, 86, 86);
+    color: rgb(228, 235, 235);
+    cursor: pointer;
+
+}
+
+.center{
+    text-align: center;
+}
+
+#special{
+    position: relative;
+    top: 0px;
+}
+
+#client-section{
+    position: relative;
+    top: -900px;
+    height: 500px;
+    border: 2px solid red;
+}
+
+.unique{
+    display: flex;
+    border: 2px solid red;
+    padding: 120px;
+    display: inline-block;
+
+    border-radius: 180px;
+
+}
+
+
+#special-1{
+    padding: 120px;
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 180px;
+}
+
+#special-2{
+    border: 2px solid red;
+}
+
+#special-3{
+    border: 2px solid red;
+}
+
+/*footer  */
+
+.footer{
+    padding: 40px 0;
+    background-color: #917e79;
+    position: relative;
+    top: 284px;
+    justify-content: center;
+
+}
+
+
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+
+
+}
+
+.footer ul li:hover{
+    opacity: 1;
+}
+
+.footer .copyright{
+    margin-top:15px ;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(14, 11, 11);
+}
